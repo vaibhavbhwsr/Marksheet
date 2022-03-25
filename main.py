@@ -26,7 +26,7 @@ school = input("Enter the School Name: ")
 isValidDate = True
 while True:
     try:
-        DOB = input("Enter the DOB 'dd/mm/yy': ")
+        DOB = input("Enter the DOB 'dd/mm/yyyy': ")
         datetime.datetime.strptime(DOB, '%d/%m/%Y')
         break
     except ValueError:
